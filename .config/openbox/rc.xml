@@ -320,7 +320,7 @@
     <!-- Keybindings for running applications -->
     <keybind key="W-Return">
       <action name="Execute">
-        <command>urxvtc</command>
+        <command>termite</command>
       </action>
     </keybind>
     <keybind key="W-d">
