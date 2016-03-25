@@ -1,6 +1,6 @@
 <%
 	# Colors
-	black = ["\#394952", 0, "black"]
+	black = ["\#232c33", 0, "black"]
 	red = ["\#99736e", 1, "red"]
 	green = ["\#78a090", 2, "green"]
 	yellow = ["\#bfb7a1", 3, "yellow"]
@@ -8,5 +8,5 @@
 	orange = ["\#BF9C86", 5, "orange"]
 	cyan = ["\#99BFBA", 6, "cyan"]
 	white = ["\#f0f0f0", 7, "white"]
-	gray = ["\#70838c", 8, "gray"]
+	gray = ["\#3d484d", 8, "gray"]
 

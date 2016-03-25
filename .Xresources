@@ -1,7 +1,7 @@
 ! Dylans Xresources
 
 ! Set the font
-URxvt*font: xft:roboto mono:size=16
+URxvt*font: xft:roboto mono:size=10
 ! URxvt*boldFont: xft:lemon:pixelsize=10:antialias=false
 
 ! Disable scrollbar
@@ -24,19 +24,28 @@ URxvt.keysym.Shift-Control-V: perl:clipboard:paste
 Xcursor.size: 32
 
 ! Xscreensaver
-xscreensaver.Dialog.*Font: xft:roboto mono:size=16
+xscreensaver.Dialog.*Font: xft:roboto mono:size=9
+
+! HiDPI
+Xft.dpi: 192
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
 
 ! Colors {{{
 
 ! special
 *.foreground:   #f0f0f0
-*.background:   #394952
+*.background:   #232c33
 *.cursorColor:  #f0f0f0
 
 ! black
 ! Second black is grey
-*.color0:       #394952
-*.color8:       #70838c
+*.color0:       #232c33
+*.color8:       #3d484d
 
 ! red
 *.color1:       #99736e

@@ -35,4 +35,9 @@ export SHELLCHECK_OPTS="-e SC2034 SC2016"
 # Still named .zsh_aliases so that dmenu can see the aliases
 source ~/.bash_aliases
 
+# HiDPI
+# export QT_DEVICE_PIXEL_RATIO=2
+# export GDK_SCALE=2
+# export GDK_DPI_SCALE=0.5
+
 [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && startx

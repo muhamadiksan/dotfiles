@@ -58,7 +58,7 @@ togglesong () {
 }
 
 dmenu () {
-    dmenu_run -s 0 -nb "#$white" -nf "#$black" -sb "#$white" -sf "#$gray" -i -h 60 -w 250 -q -x 30 -y 30 -fn "roboto-16" -p ">" -l 1
+    dmenu_run -s 0 -nb "#$white" -nf "#$black" -sb "#$white" -sf "#$gray" -i -h 60 -w 275 -q -x 50 -y 50 -fn "roboto-12" -l 1
 }
 
 screenshot () {

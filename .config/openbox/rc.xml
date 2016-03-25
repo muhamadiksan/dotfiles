@@ -58,7 +58,7 @@
     <animateIconify>no</animateIconify>
     <font place="ActiveWindow">
       <name>Roboto</name>
-      <size>18</size>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -67,7 +67,7 @@
     </font>
     <font place="InactiveWindow">
       <name>Roboto</name>
-      <size>18</size>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -76,7 +76,7 @@
     </font>
     <font place="MenuHeader">
       <name>Roboto</name>
-      <size>18</size>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -85,7 +85,7 @@
     </font>
     <font place="MenuItem">
       <name>Roboto</name>
-      <size>16</size>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -94,7 +94,7 @@
     </font>
     <font place="ActiveOnScreenDisplay">
       <name>Roboto</name>
-      <size>18</size>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -103,7 +103,7 @@
     </font>
     <font place="InactiveOnScreenDisplay">
       <name>Roboto</name>
-      <size>18</size>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -290,7 +290,7 @@
     </keybind>
     <!-- Fullscreen -->
     <keybind key="W-f">
-      <action name="ToggleFullscreen"/>
+      <action name="ToggleMaximizeFull"/>
     </keybind>
     <!-- Close Windows -->
     <keybind key="W-q">
@@ -320,7 +320,7 @@
     <!-- Keybindings for running applications -->
     <keybind key="W-Return">
       <action name="Execute">
-        <command>termite</command>
+        <command>urxvtc</command>
       </action>
     </keybind>
     <keybind key="W-d">
@@ -730,6 +730,10 @@
       <desktop>all</desktop>
       <maximized>no</maximized>
       <decor>yes</decor>
+      <layer>above</layer>
+    </application>
+    <application name="tint2">
+      <desktop>all</desktop>
       <layer>above</layer>
     </application>
     <application name="Music">
