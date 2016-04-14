@@ -1,2 +1,4 @@
 xscreensaver -no-splash &
 devmon &
+# stalonetray --dockapp-mode simple &
+# nm-applet &
